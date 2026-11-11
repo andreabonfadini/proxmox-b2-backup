@@ -38,7 +38,7 @@ vzdump <guest> --stdout | rclone rcat b2-remote:bucket/folder/<guest>-<date>
 
 ## Requirements
 
-- Proxmox VE 7 or 8 (developed against the PVE 8 `vzdump` CLI)
+- Proxmox VE 8 or 9 (the `vzdump` options used are unchanged in 9.x)
 - `rclone` >= 1.60, `python3`, `flock`, `numfmt` (coreutils)
 - A Backblaze B2 bucket and an application key with read/write/delete
   permissions
